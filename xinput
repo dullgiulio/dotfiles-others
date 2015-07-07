@@ -1,0 +1,6 @@
+#!/bin/sh
+
+ID=2
+
+xinput --set-prop $ID "Evdev Wheel Emulation" 0
+xinput --set-prop $ID "Evdev Middle Button Emulation" 1
